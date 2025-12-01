@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Checkout repository code
-        uses: actions/checkout@v4 # An action to get your code
+        uses: actions/checkout@v6 # An action to get your code
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
